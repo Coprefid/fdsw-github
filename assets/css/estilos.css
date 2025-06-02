@@ -32,8 +32,52 @@ body {
     font-weight: 400;
   }
 
-  .navbar-brand{
+  .navbar-brand {
     width: 100px;
   }
+}
 
+/* ===== Personalizaciones ===== */
+
+/* 1. Color de fondo del body */
+body {
+  background-color: #f5f5f5; /* Gris muy claro */
+}
+
+/* 2. Color de enlaces en la navbar */
+.navbar-dark .navbar-nav .nav-link {
+  color: #ffd700; /* Dorado */
+}
+
+/* 3. Color de hover en enlaces de la navbar */
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #ffffff; /* Blanco al pasar el mouse */
+}
+
+/* 4. Estilo de encabezados h2 dentro de secciones */
+h2.display-3 {
+  color: #2c3e50; /* Azul oscuro */
+  margin-bottom: 1rem;
+}
+
+/* 5. Fuente y color de lista en “Educación” y “Experiencia” */
+#Educacion ul,
+#Experiencia ul {
+  padding-left: 0;
+}
+#Educacion li h4,
+#Experiencia li h4 {
+  font-size: 1.25rem;
+  color: #34495e;
+}
+#Educacion li p,
+#Experiencia li p {
+  color: #555555;
+}
+
+/* 6. Ajuste de footer */
+footer {
+  background-color: #1a1a1a;
+  color: #cccccc;
+  font-size: 0.9rem;
 }
